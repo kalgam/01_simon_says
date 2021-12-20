@@ -161,4 +161,8 @@ function appDraw() {
         seqT   = -1;
         seq.push(getRandomInt(4));
     }
+
+    if (mousePressed && mx > w - 16 && my > h - 16) {
+        reload()
+    }
 }

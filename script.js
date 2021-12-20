@@ -98,7 +98,7 @@ function appDraw() {
     }
 
     var scorePos = cx - ("" + seq.length).length * 4;
-    drawNumber(scorePos, 5, seq.length - 1);
+    drawNumber(5, 5, seq.length - 1);
 
     var advance = false;
 

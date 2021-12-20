@@ -38,7 +38,7 @@ function appInit() {
 
 function appUpdate(dt) {
 
-    bgOffset += dt * 5;
+    bgOffset += dt * 15;
     if (bgOffset > 16) {
         bgOffset -= 16;
     }
